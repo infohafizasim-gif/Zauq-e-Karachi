@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zauq-e-Karachi</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/food-stories.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+<div class="container-fluid px-lg-5">
+<a class="navbar-brand" href="index.html">
+ZAUQ<span>-E-KARACHI</span>
+</a>
+<button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navMenu">
+<ul class="navbar-nav mx-auto">
+<li class="nav-item">
+<a class="nav-link active" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="restaurants.html">Restaurants</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="hidden-gems.html">Hidden Gems</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+</ul>
+<ul class="navbar-nav" id="authArea"></ul>
+</div>
+</div>
+</nav>
+<section class="stories-hero">
+    <div class="container text-center">
+        <p class="section-mini">KARACHI FOOD JOURNAL</p>
+        <h1 class="hero-title">
+            Food <span>Stories</span>
+        </h1>
+        <p class="hero-desc">
+            Discover the history, culture and traditions behind Karachi's most iconic dishes.
+        </p>
+    </div>
+</section>
+
+<section class="featured-story">
+    <div class="container">
+        <div class="featured-card">
+            <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dw=800">
+            <div class="featured-content">
+                <span>FEATURED STORY</span>
+                <h2>The Story Behind Karachi's Legendary Biryani</h2>
+                <p>
+                    From family gatherings to street-side food culture,
+                    biryani became Karachi's most beloved dish.
+                </p>
+                <button class="primary-btn read-story-btn" data-story="biryani">
+                    Read Story
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stories-section">
+    <div class="container">
+        <div class="row g-4" id="storiesContainer"></div>
+    </div>
+</section>
+
+<section class="food-facts section">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h2>1947</h2>
+                <p>Migration shaped Karachi's food identity.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>5000+</h2>
+                <p>Food businesses operate across the city.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>24/7</h2>
+                <p>Karachi's food scene never sleeps.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="site-footer">
+        <div class="row gy-5 footer-content">
+            <div class="col-lg-4">
+                <h2 class="footer-logo">
+                    ZAUQ<span>-E-KARACHI</span>
+                </h2>
+                <p class="footer-desc">
+                    Discover Karachi's restaurants, hidden gems, street food and culinary stories through a digital guide.
+                </p>
+                <div class="social-links">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <h5>Explore</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="hidden-gems.html">Hidden Gems</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <h5>Popular Categories</h5>
+                <ul>
+                    <li><a href="#">Biryani</a></li>
+                    <li><a href="#">BBQ</a></li>
+                    <li><a href="#">Nihari</a></li>
+                    <li><a href="#">Street Food</a></li>
+                    <li><a href="#">Desserts</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <h5>Get In Touch</h5>
+                <p> Karachi, Pakistan</p>
+                <p> contact@zauqekarachi.com</p>
+                <p> +92 337 0757609</p>
+            </div>
+        </div>
+        <div class="food-quote">
+            “Every dish tells a story,
+            every street holds a flavour,
+            every bite belongs to Karachi.”
+        </div>
+        <div class="footer-bottom">
+            <p>
+                © 2026 Zauq-e-Karachi. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+<button id="backToTop">Top</button>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="base.js"></script>
+<script src="navbar-auth.js"></script>
+<script src="food-stories.js"></script>
+</body>
+</html>
